@@ -6,7 +6,7 @@ import joblib
 #Create UI
 
 #Title
-st.header('World Happiness Report App')
+st.header('World Happiness Report')
 
 #Inputs
 Standard_Error = st.number_input("Enter the Standard Error score")#The standard error of the happiness score.
