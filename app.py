@@ -9,21 +9,21 @@ import joblib
 st.header('World Happiness Report')
 
 #Inputs
-Standard_Error = st.number_input("Enter the Standard Error score")#The standard error of the happiness score.
+Standard_Error = st.number_input("Standard Error")#The standard error of the happiness score.
 
-Economy_GDP_per_Capita = st.number_input("Enter the Economy")#The extent to which GDP contributes to the calculation of the Happiness Score.
+Economy_GDP_per_Capita = st.number_input("Economy")#The extent to which GDP contributes to the calculation of the Happiness Score.
 
-Family = st.number_input("Enter family score ")#The extent to which Family contributes to the calculation of the Happiness Score
+Family = st.number_input(" Family score ")#The extent to which Family contributes to the calculation of the Happiness Score
 
-Health_Life_Expectancy = st.number_input("Enter health score")#The extent to which Life expectancy contributed to the calculation of the Happiness Score
+Health_Life_Expectancy = st.number_input(" Health score")#The extent to which Life expectancy contributed to the calculation of the Happiness Score
 
-Freedom = st.number_input("Enter freedom score")#The extent to which Freedom contributed to the calculation of the Happiness Score
+Freedom = st.number_input(" Freedom score")#The extent to which Freedom contributed to the calculation of the Happiness Score
 
-Trust_Government_Corruption = st.number_input("Enter trust score")#The extent to which Perception of Corruption contributes to Happiness Score.
+Trust_Government_Corruption = st.number_input(" Trust score")#The extent to which Perception of Corruption contributes to Happiness Score.
 
-Generosity = st.number_input("Enter generosity score")#The extent to which Generosity contributed to the calculation of the Happiness Score.
+Generosity = st.number_input(" Generosity score")#The extent to which Generosity contributed to the calculation of the Happiness Score.
 
-Dystopia_Residual = st.number_input("Enter dystopia residual")#The extent to which Dystopia Residual contributed to the calculation of the Happiness Score.
+Dystopia_Residual = st.number_input(" Dystopia residual")#The extent to which Dystopia Residual contributed to the calculation of the Happiness Score.
 
 #Button is pressed
 if st.button("Submit") :
